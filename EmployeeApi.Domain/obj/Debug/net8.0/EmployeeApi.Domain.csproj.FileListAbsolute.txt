@@ -1,0 +1,11 @@
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/bin/Debug/net8.0/EmployeeApi.Domain.deps.json
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/bin/Debug/net8.0/EmployeeApi.Domain.dll
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/bin/Debug/net8.0/EmployeeApi.Domain.pdb
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/Debug/net8.0/EmployeeApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/Debug/net8.0/EmployeeApi.Domain.AssemblyInfoInputs.cache
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/Debug/net8.0/EmployeeApi.Domain.AssemblyInfo.cs
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/Debug/net8.0/EmployeeApi.Domain.csproj.CoreCompileInputs.cache
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/Debug/net8.0/EmployeeApi.Domain.dll
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/Debug/net8.0/refint/EmployeeApi.Domain.dll
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/Debug/net8.0/EmployeeApi.Domain.pdb
+/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/Debug/net8.0/ref/EmployeeApi.Domain.dll

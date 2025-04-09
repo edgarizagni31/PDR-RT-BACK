@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/dev/projects/EmployeeApi/EmployeeApi.API/EmployeeApi.API.csproj": {}
+  },
+  "projects": {
+    "/mnt/dev/projects/EmployeeApi/EmployeeApi.API/EmployeeApi.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/dev/projects/EmployeeApi/EmployeeApi.API/EmployeeApi.API.csproj",
+        "projectName": "EmployeeApi.API",
+        "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.API/EmployeeApi.API.csproj",
+        "packagesPath": "/home/edgar/.nuget/packages/",
+        "outputPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edgar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/dev/projects/EmployeeApi/EmployeeApi.Application/EmployeeApi.Application.csproj": {
+                "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Application/EmployeeApi.Application.csproj"
+              },
+              "/mnt/dev/projects/EmployeeApi/EmployeeApi.Infrastructure/EmployeeApi.Infrastructure.csproj": {
+                "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Infrastructure/EmployeeApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/edgar/.dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/dev/projects/EmployeeApi/EmployeeApi.Application/EmployeeApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Application/EmployeeApi.Application.csproj",
+        "projectName": "EmployeeApi.Application",
+        "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Application/EmployeeApi.Application.csproj",
+        "packagesPath": "/home/edgar/.nuget/packages/",
+        "outputPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edgar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/EmployeeApi.Domain.csproj": {
+                "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/EmployeeApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/edgar/.dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/EmployeeApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/EmployeeApi.Domain.csproj",
+        "projectName": "EmployeeApi.Domain",
+        "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/EmployeeApi.Domain.csproj",
+        "packagesPath": "/home/edgar/.nuget/packages/",
+        "outputPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edgar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/edgar/.dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/dev/projects/EmployeeApi/EmployeeApi.Infrastructure/EmployeeApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Infrastructure/EmployeeApi.Infrastructure.csproj",
+        "projectName": "EmployeeApi.Infrastructure",
+        "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Infrastructure/EmployeeApi.Infrastructure.csproj",
+        "packagesPath": "/home/edgar/.nuget/packages/",
+        "outputPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edgar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/dev/projects/EmployeeApi/EmployeeApi.Application/EmployeeApi.Application.csproj": {
+                "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Application/EmployeeApi.Application.csproj"
+              },
+              "/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/EmployeeApi.Domain.csproj": {
+                "projectPath": "/mnt/dev/projects/EmployeeApi/EmployeeApi.Domain/EmployeeApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/edgar/.dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
