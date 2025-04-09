@@ -7,14 +7,14 @@ namespace EmployeeApi.Application.Services
   public class EmployeeService
   {
     private readonly IEmployeeRepository _employeeRepository;
-    private readonly IAFPRepository _afpRepository;
-    private readonly IJobRepository _jobRepostiroy;
+    private readonly AFPService _afpService;
+    private readonly JobService _jobService;
 
-    public EmployeeService(IEmployeeRepository employeeRepository, IJobRepository jobService, IAFPRepository afpService)
+    public EmployeeService(IEmployeeRepository employeeRepository, JobService jobService, AFPService afpService)
     {
       _employeeRepository = employeeRepository;
-      _jobRepostiroy = jobService;
-      _afpRepository = afpService;
+      _afpService = afpService;
+      _jobService = jobService;
     }
 
     public async Task<List<EmployeeWhitAfpAndJob>> ListEmployeeAsync()
@@ -29,8 +29,8 @@ namespace EmployeeApi.Application.Services
 
     public async Task<Employee> CreateEmployeeAsync(CreateEmployeeDto createEmployeeDto)
     {
-      var afp = await _afpRepository.GetAFPAsync(createEmployeeDto.AfpId);
-      var job = await _jobRepostiroy.GetJobAsync(createEmployeeDto.JobId);
+      var afp = await _afpService.GetAFPAsync(createEmployeeDto.AfpId);
+      var job = await _jobService.GetJobAsync(createEmployeeDto.JobId);
       var employee = new Employee
       {
         FirstName = createEmployeeDto.FirstName,
